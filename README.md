@@ -84,23 +84,27 @@ Response
 
 This filter supports the following compression algorithms when compressing data to the repsonse, as specified in the "Accept-Encoding" HTTP request header:
 
-*gzip
-*x-gzip
-*compress
-*x-compress
-*deflate
-*identity (that is, no compression)
-*Request
+* gzip
+* x-gzip
+* base64
+* x-base64
+* compress
+* x-compress
+* deflate
+* identity (that is, no compression)
+* Request
 
 This filter supports the following compression algorithms when decompressing data from the request body, as specified in the "Content-Encoding" HTTP request header:
 
-*gzip
-*x-gzip
-*compress
-*x-compress
-*deflate
-*identity
-*Controlling runtime behavior
+* gzip
+* x-gzip
+* base64
+* x-base64
+* compress
+* x-compress
+* deflate
+* identity
+* Controlling runtime behavior
 
 An application may force the encoding / compression used by setting an "Accept-Encoding" value into the request as an attribute under the key FORCE_ENCODING_KEY. Obviously this has to be set upstream from the filter, not downstream.
 
