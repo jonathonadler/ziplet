@@ -13,7 +13,9 @@ Why might you want to use this solution compared to others?
 * Selective compression based on content type, size, or user agent
 * Exposes compression statistics
 * Easy Logging integration (SL4J)
-* Installation
+
+Installation
+------------
 
 Add the ziplet-XX.jar file containing CompressingFilter to your web application's WEB-INF/lib directory:
 

@@ -2,12 +2,13 @@ Copyright (C) 2006 and onwards Sean Owen
 
 Licensed under the Apache License, Version 2.0
 
-This project includes: 
+This project includes:
 
   annotations-api under Apache License, Version 2.0
   ant under The Apache Software License, Version 2.0
   bcel under The Apache Software License, Version 2.0
   catalina under Apache License, Version 2.0
+  Apache Commons Codec under Apache License, Version 2.0
   Eclipse ECJ under Eclipse Public License v1.0
   el-api under Apache License, Version 2.0
   jakarta-regexp under The Apache Software License, Version 2.0
@@ -28,4 +29,8 @@ This project includes:
   SLF4J API Module under MIT License
   xercesImpl under The Apache Software License, Version 2.0
   ziplet under The Apache Software License, Version 2.0
+
+Modified by Jonathon Adler, 2015. Added base64 encoding/decoding support.
+These additions are also licensed under the Apache License, Version 2.0
+
 

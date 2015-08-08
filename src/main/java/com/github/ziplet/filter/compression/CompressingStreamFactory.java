@@ -12,6 +12,10 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ *
+ * Modified by Jonathon Adler, 2015. Added base64 encoding/decoding support.
+ * These additions are also licensed under the Apache License, Version 2.0
+ *
  */
 package com.github.ziplet.filter.compression;
 
